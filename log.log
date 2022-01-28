@@ -1,0 +1,17 @@
+$ pnpm start
+
+> test-js-waku@1.0.0 start /home/dao/test-js-waku
+> tsc && node dist/main.js
+
+  test-js-waku sent message WakuMessage {
+  proto: {
+    payload: <Buffer 74 65 73 74>,
+    timestamp: 1643386909.352,
+    version: 0,
+    contentTopic: '/test-js-waku/1/text/proto'
+  },
+  _signaturePublicKey: undefined,
+  _signature: undefined
+} +0ms
+  test-js-waku got message <Buffer 74 65 73 74> +4m
+
